@@ -1,0 +1,24 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Card animations for new task appearance */
+  .card {
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style for completed tasks */
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  /* Modal styles */
+  .modal-content {
+    border-radius: 10px;
+  }
+  
